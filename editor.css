@@ -1,0 +1,12 @@
+.icone-selecao{color:transparent;border:1px solid #ccc;width:50px;height:50px;float:left;margin:5px}
+.icone-selecao.selecionado{border:5px solid black}
+.icone-r{background:url(img/r.jpg) 0 0 transparent}
+.icone-w{background:url(img/w.jpg) 0 0 transparent}
+
+.container-mapa{border-spacing:0}
+#linha-0 .quadrado-mapa.coluna-0{border-width:1px 1px 1px 1px}
+#linha-0 .quadrado-mapa{border-width:1px 1px 1px 0}
+.quadrado-mapa.coluna-0{border-width:0 1px 1px 1px}
+.quadrado-mapa{width:50px;height:50px;border-width:0 1px 1px 0;border-style:solid;border-color:#000;color:transparent}
+
+.codigo-array{}

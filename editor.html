@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" href="editor.css" />
+</head>
+<body>
+    <p>Tamanho:</p>
+
+  	<input type="text" id="largura-mapa" />
+  	X
+    <input type="text" id="altura-mapa" />
+    <button id="gerar-mapa">Gerar mapa</button>
+    <br><br><br><br>
+    
+    <input type="text" id="codigo-array" />
+    <button id="gerar-mapa-por-array">Gerar mapa a partir de um c&oacute;digo de array</button>
+    <br><br><br><br>
+    
+    <div class="icone icone-selecao icone-r selecionado">r</div>
+    <div class="icone icone-selecao icone-w">w</div>
+    <br><br><br><br>
+    
+    <table class="container-mapa">
+        <tbody>
+            <tr class="linha-mapa" id="linha-0">
+                <td class="quadrado-mapa" id="coluna-0"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <button id="gerar-codigo">Gerar c&oacute;digo</button>
+    <div class="codigo-array-container">
+        <p>Codigo da array:</p>
+        <span class="codigo-array"></span>
+    </div>
+    
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="editor.js"></script>
+</body>
+</html>

@@ -1,7 +1,21 @@
 .icone-selecao{color:transparent;border:1px solid #ccc;width:50px;height:50px;float:left;margin:5px}
 .icone-selecao.selecionado{border:5px solid black}
-.icone-r{background:url(img/r.jpg) 0 0 transparent}
-.icone-w{background:url(img/w.jpg) 0 0 transparent}
+
+
+.icone-w{background:url('img/sideWalk.png') 0 0 transparent}
+.icone-gr{background:url('img/grass.png') 0 0 transparent}
+.icone-rh{background:url('img/roadH.png') 0 0 transparent}
+.icone-rv{background:url('img/roadV.png' ) 0 0 transparent}
+.icone-c1{background:url('img/roadC1.png') 0 0 transparent}
+.icone-c2{background:url('img/roadC2.png') 0 0 transparent}
+.icone-c3{background:url('img/roadC3.png') 0 0 transparent}
+.icone-c4{background:url('img/roadC4.png') 0 0 transparent}
+.icone-x1{background:url('img/roadX1.png') 0 0 transparent}
+.icone-x2{background:url('img/roadX2.png') 0 0 transparent}
+.icone-x3{background:url('img/roadX3.png') 0 0 transparent}
+.icone-x4{background:url('img/roadX4.png') 0 0 transparent}
+.icone-x5{background:url('img/roadX5.png') 0 0 transparent}
+
 
 .container-mapa{border-spacing:0}
 #linha-0 .quadrado-mapa.coluna-0{border-width:1px 1px 1px 1px}

@@ -1,26 +1,47 @@
-.icone-selecao{color:transparent;border:1px solid #ccc;width:50px;height:50px;float:left;margin:5px}
-.icone-selecao.selecionado{border:5px solid black}
+br{clear:both}
+
+.icone-selecao{color:transparent;border:1px solid #ccc;width:128px;height:128px;float:left;margin:0 6px 10px}
+.icone-selecao.selecionado{border:5px solid black;margin:0 1px 5px}
 
 
-.icone-w{background:url('img/sideWalk.png') 0 0 transparent}
-.icone-gr{background:url('img/grass.png') 0 0 transparent}
-.icone-rh{background:url('img/roadH.png') 0 0 transparent}
-.icone-rv{background:url('img/roadV.png' ) 0 0 transparent}
-.icone-c1{background:url('img/roadC1.png') 0 0 transparent}
-.icone-c2{background:url('img/roadC2.png') 0 0 transparent}
-.icone-c3{background:url('img/roadC3.png') 0 0 transparent}
-.icone-c4{background:url('img/roadC4.png') 0 0 transparent}
-.icone-x1{background:url('img/roadX1.png') 0 0 transparent}
-.icone-x2{background:url('img/roadX2.png') 0 0 transparent}
-.icone-x3{background:url('img/roadX3.png') 0 0 transparent}
-.icone-x4{background:url('img/roadX4.png') 0 0 transparent}
-.icone-x5{background:url('img/roadX5.png') 0 0 transparent}
+.icone-w{background:url('sprites/level/sideWalk.png') 0 0 transparent}
+.icone-gr{background:url('sprites/level/grass.png') 0 0 transparent}
+.icone-rh{background:url('sprites/level/roadH.png') 0 0 transparent}
+.icone-rv{background:url('sprites/level/roadV.png') 0 0 transparent}
+.icone-rul{background:url('sprites/level/roadUpLeft.png') 0 0 transparent}
+.icone-rur{background:url('sprites/level/roadUpRight.png') 0 0 transparent}
+.icone-rrd{background:url('sprites/level/roadRightDown.png') 0 0 transparent}
+.icone-rdl{background:url('sprites/level/roadDownLeft.png') 0 0 transparent}
+.icone-rtd{background:url('sprites/level/roadTDown.png') 0 0 transparent}
+.icone-rtl{background:url('sprites/level/roadTLeft.png') 0 0 transparent}
+.icone-rtu{background:url('sprites/level/roadTUp.png') 0 0 transparent}
+.icone-rtr{background:url('sprites/level/roadTRight.png') 0 0 transparent}
+.icone-rc{background:url('sprites/level/roadCross.png') 0 0 transparent}
+.icone-gS{background:url('sprites/level/guardSouth.png') 0 0 transparent}
+.icone-gN{background:url('sprites/level/guardNorth.png') 0 0 transparent}
+.icone-gE{background:url('sprites/level/guardWest.png') 0 0 transparent}
+.icone-gW{background:url('sprites/level/guardEast.png') 0 0 transparent}
+.icone-gSWc{background:url('sprites/level/guardSouthWestCorner.png') 0 0 transparent}
+.icone-gNWc{background:url('sprites/level/guardNorthWestCorner.png') 0 0 transparent}
+.icone-gNEc{background:url('sprites/level/guardNorthEastCorner.png') 0 0 transparent}
+.icone-gSEc{background:url('sprites/level/guardSouthEastCorner.png') 0 0 transparent}
+.icone-gNE{background:url('sprites/level/guardNorthEast.png') 0 0 transparent}
+.icone-gNW{background:url('sprites/level/guardNorthWest.png') 0 0 transparent}
+.icone-gSE{background:url('sprites/level/guardSouthEast.png') 0 0 transparent}
+.icone-gSW{background:url('sprites/level/guardSouthWest.png') 0 0 transparent}
+.icone-gH{background:url('sprites/level/guardH.png') 0 0 transparent}
+.icone-gHW{background:url('sprites/level/guardHWest.png') 0 0 transparent}
+.icone-gHE{background:url('sprites/level/guardHEast.png') 0 0 transparent}
+.icone-gV{background:url('sprites/level/guardV.png') 0 0 transparent}
+.icone-gVS{background:url('sprites/level/guardVSouth.png') 0 0 transparent}
+.icone-gVN{background:url('sprites/level/guardVNorth.png') 0 0 transparent}
+.icone-gBX{background:url('sprites/level/guardBox.png') 0 0 transparent}
 
 
 .container-mapa{border-spacing:0}
 #linha-0 .quadrado-mapa.coluna-0{border-width:1px 1px 1px 1px}
 #linha-0 .quadrado-mapa{border-width:1px 1px 1px 0}
 .quadrado-mapa.coluna-0{border-width:0 1px 1px 1px}
-.quadrado-mapa{width:50px;height:50px;border-width:0 1px 1px 0;border-style:solid;border-color:#000;color:transparent}
+.quadrado-mapa{width:128px;height:128px;border-width:0 1px 1px 0;border-style:solid;border-color:#000;color:transparent}
 
 .codigo-array{}
